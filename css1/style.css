@@ -1,0 +1,18 @@
+@font-face {
+  font-family: RubikBeastly-Regular;
+  src: url(../fonts/RubikBeastly-Regular.ttf);
+}
+
+h1 {
+  /* font-family: RubikBeastly-Regular;
+   */
+  word-spacing: 10px;
+}
+
+p {
+  color: red;
+  text-shadow: 10px 10px 10px gray;
+}
+.letter::first-letter {
+  text-transform: uppercase;
+}

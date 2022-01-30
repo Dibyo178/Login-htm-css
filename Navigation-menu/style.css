@@ -1,0 +1,38 @@
+ul {
+  /* list-style-type: upper-alpha;
+  list-style-position: inside;
+  list-style-image: url(./list.jpg); */
+  list-style: square inside url(./list.jpg);
+}
+ul.nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+ul.nav li {
+  background-color: darkcyan;
+  position: relative;
+}
+ul.nav li a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 0.9375rem 1.25rem;
+}
+ul.nav li:hover {
+  background-color: rgb(6, 44, 44);
+}
+ul.dropdown {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  top: 100%;
+  display: none;
+}
+ul.nav li:hover ul.dropdown {
+  display: block;
+}

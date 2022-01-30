@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato", sans-serif;
+  background: #f3e0e2;
+}
+.form-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+main {
+  display: flex;
+  width: 80vw;
+  margin: 0 auto;
+  box-shadow: 10px 10px 42px #00000091;
+}
+
+main > * {
+  flex-basis: 100%;
+}
+.login-form {
+  background-color: #fff;
+  text-align: center;
+}
+.login-heading {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.fab {
+  border: 2px solid #eeeeee;
+  padding: 15px;
+  border-radius: 50%;
+  font-size: 30px;
+  width: 60px;
+  height: 60px;
+  margin-bottom: 20px;
+}
+.fab:hover {
+  background: #ff4828;
+  color: #fff;
+}
+.fa-facebook-f {
+  margin-right: 5px;
+}
+.fa-twitter {
+  margin-left: 5px;
+}
+input {
+  width: 50%;
+  background-color: #eeeeee;
+  padding: 10px;
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  border: none;
+}
+form a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #000000a6;
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+input[type="submit"] {
+  background: #ff4828;
+  font-size: 1rem;
+  padding: 16px;
+  width: 20%;
+  border-radius: 25px;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+.login-text {
+  background-image: linear-gradient(to right, #ff454d, #ff416a);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.text h2 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 3.2rem;
+  margin-bottom: 25px;
+}
+.text p {
+  color: #fff;
+  font-size: 1.1rem;
+}
+.text {
+  padding: 5rem;
+}

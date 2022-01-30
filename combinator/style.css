@@ -1,0 +1,33 @@
+/* general sibling ~ */
+
+/* p ~ h1 {
+  color: red;
+} */
+
+/* END*/
+/* adjacent-selector */
+/* 
+p + h1 {
+  color: green;
+} */
+
+/* .myP + h1 {
+  color: green;
+} */
+
+/* END*/
+
+/* child - selector */
+/* 
+.baba > h1 {
+  color: red;
+} */
+
+/* END*/
+
+/* Descendant Selector */
+
+.baba p,
+h1 {
+  color: red;
+}

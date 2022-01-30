@@ -1,0 +1,27 @@
+/* 
+ Absolute unit : px,mm, pt, pc,in,q
+ Relative unit: em,rem,vh,vw,%
+
+   /* 12pt = 1pc (picus) 
+      1em = parent er size ta k nibe.
+        
+   
+   */
+*/
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  font-size: 24px;
+}
+.main_paragraph {
+  /* font-size: 12pt; */
+  font-size: 24px;
+}
+
+section {
+  background: orchid;
+  height: 100vh;
+}
